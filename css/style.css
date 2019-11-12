@@ -1,12 +1,8 @@
 body  {
-  background-image: url(../img/wood_3695x2592.jpg);
-  background-repeat: no-repeat;
   width: 70%;
   margin: auto;
-}
-
-button {
-  border-radius: 5px;
+  background-image: url(../img/wood_3695x2592.jpg);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -14,18 +10,20 @@ h1 {
   color: white;
 }
 
+hr {
+  color: white;
+}
+
+button {
+  border-radius: 5px;
+}
+
 footer {
   text-align: center;
   color: white;
 }
 
-hr {
-  color: white;
-}
-
-.messages {
-  margin: 10px 0;
-}
+/* classi header */
 
 .header-logo {
   height: 110px;
@@ -33,34 +31,32 @@ hr {
 }
 
 .logo {
+  vertical-align: middle;
   width: 100px;
   color: white;
-  vertical-align: middle;
 }
 
+/* classi main */
+
 .unread-text {
-  color: white;
   height: 50px;
   line-height: 50px;
+  color: white;
 }
 
 .unread-number {
   display: inline-block;
   height: 50px;
   width: 50px;
-  background-color: orange;
-  border-radius: 50%;
-  color: white;
-  font-size: 30px;
   text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
 }
 
-.email-text {
-  color: gray;
-}
-
-.inline {
-  display: inline;
+.messages {
+  margin: 10px 0;
 }
 
 .unread-message {
@@ -72,6 +68,16 @@ hr {
 .read-message {
   background-color: white;
 }
+
+.email-text {
+  color: gray;
+}
+
+.inline {
+  display: inline;
+}
+
+/* classi footer */
 
 .credits {
   font-size: 25px;
