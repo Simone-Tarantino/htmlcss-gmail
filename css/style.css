@@ -1,0 +1,78 @@
+body  {
+  background-image: url(../img/wood_3695x2592.jpg);
+  background-repeat: no-repeat;
+  width: 70%;
+  margin: auto;
+}
+
+button {
+  border-radius: 5px;
+}
+
+h1 {
+  display: inline;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+hr {
+  color: white;
+}
+
+.messages {
+  margin: 10px 0;
+}
+
+.header-logo {
+  height: 110px;
+  line-height: 110px;
+}
+
+.logo {
+  width: 100px;
+  color: white;
+  vertical-align: middle;
+}
+
+.unread-text {
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+.unread-number {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.email-text {
+  color: gray;
+}
+
+.inline {
+  display: inline;
+}
+
+.unread-message {
+  border: 1px solid black;
+  padding: 3px;
+  background-color: lightgray;
+}
+
+.read-message {
+  background-color: white;
+}
+
+.credits {
+  font-size: 25px;
+}
